@@ -7,19 +7,22 @@
 </head>
 
 <body>
+    <!--Nav bar-->
 	<nav class="nav_bar">
 		<a href="">Home</a>
 		<a href="about.html" target="new">About</a>
 		<a href="">Contact</a>
+        <a href="#sign_up">Sign Up</a> <!--This link with the '#' will jump to a spot on the page with a matching id value-->
 		<input type="search" placeholder="Search for Poem...">
 	</nav>
+    <!--End Nav bar-->
 	<center>
 	<h2>Poem of the Day &copy;</h2>
 	<h3>Salutations</h3>
 	</center>
 <!-- This section is my poem -->
 	<div class="display-center">
-		<div class="display-inlline">
+		<div class="display-inline">
 			<p class="poem">
 				Moments ago,<br>
 				I stood in the driveway and watched,<br>
@@ -34,7 +37,7 @@
 	</div>
 	<!--This is me experimenting with a form-->
 	<center>
-	<h4>In order to access another poem, please fill out this form.</h4>
+	<h4 id="sign_up">In order to access another poem, please fill out this form.</h4>
 	<form action="">
 		<label for="fName">First Name: </label><input type="text" id="fName" name="fName">
 		<label for="lName">Last Name: </label><input type="text" id="lName" name="lName"><br><br>
