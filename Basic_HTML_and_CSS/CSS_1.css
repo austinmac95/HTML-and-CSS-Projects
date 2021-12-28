@@ -2,8 +2,21 @@
 /* CSS Document */
 .poem {
 	font-style:italic;
+	text-align: left
 }
 
-h3 {
-	text-shadow: 4px 4px 6px gray
+.display-center {
+	text-align: center;
+}
+
+.display-inlline{
+	display: inline-block;
+}
+
+h2 {
+	text-shadow: 2px 2px 6px gray
+}
+
+.nav_bar {
+	text-align: right;
 }

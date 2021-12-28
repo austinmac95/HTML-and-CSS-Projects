@@ -7,26 +7,38 @@
 </head>
 
 <body>
-	<h3>Poem of the Day &copy;</h3>
+	<nav class="nav_bar">
+		<a href="">Home</a>
+		<a href="">About</a>
+		<a href="">Contact</a>
+		<input type="search" placeholder="Search for Poem...">
+	</nav>
+	<center>
+	<h2>Poem of the Day &copy;</h2>
+	<h3>Salutations</h3>
+	</center>
 <!-- This section is my poem -->
-	<section class="poem">
-	<p>
-		Moments ago,<br>
-		I stood in the driveway and watched,<br>
-		as the Lord arose before me<br>
-		to absolve me of my sins.<br><br>
+	<div class="display-center">
+		<div class="display-inlline">
+			<p class="poem">
+				Moments ago,<br>
+				I stood in the driveway and watched,<br>
+				as the Lord arose before me<br>
+				to absolve me of my sins.<br><br>
 
-		With my beer in one hand,<br>
-		and my cigarette in the other,<br>
-		I smiled at him, and said, “Thanks.”
-	</p>
-	</section>
+				With my beer in one hand,<br>
+				and my cigarette in the other,<br>
+				I smiled at him, and said, “Thanks.”
+			</p>
+		</div>
+	</div>
 	<!--This is me experimenting with a form-->
+	<center>
 	<h4>In order to access another poem, please fill out this form.</h4>
 	<form action="">
-		<label for="fName">First Name: </label><input type="text" id="fName" name="fName"><br><br>
+		<label for="fName">First Name: </label><input type="text" id="fName" name="fName">
 		<label for="lName">Last Name: </label><input type="text" id="lName" name="lName"><br><br>
-		<label for="email">Email: </label><input type="email" id="email" name="email"><br><br>
+		<label for="email">Email: </label><input type="email" id="email" name="email">
 		<label for="tele">Phone: </label><input type="tel" id="tele" name="tele">
 		<p>Would you like to receive a daily <em>Poem of the Day</em> email?</p>
 		<input type="radio" id="yes" name="emails" value="yes">
@@ -37,8 +49,8 @@
 		<input type="radio" id="yes_text" name="texts" value="yes">
 		<label for="texts">Yes</label>
 		<input type="radio" id="no_text" name="texts" value="no">
-		<label for="no_text">No</label><br><br>
+		<label for="texts">No</label><br><br>
 		<input type="submit" value="Submit">
-	</form>
+	</form></center>
 </body>
 </html>
