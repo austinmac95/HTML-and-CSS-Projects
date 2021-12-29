@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+iframe {
+   display: block;
+   margin: 40px auto;
+}
+
+.ticket-button {
+    border-style: outset;
+    margin: auto;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    display: block;
+}
