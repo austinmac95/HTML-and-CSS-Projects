@@ -7,10 +7,5 @@ iframe {
 }
 
 .ticket-button {
-    border-style: outset;
-    margin: auto;
-    border-radius: 10px;
-    height: 40px;
-    width: 100px;
-    display: block;
+    margin: 10px;
 }
