@@ -1,0 +1,102 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    color: rgba(8, 141, 165, 1);
+    margin-left: 100px;
+    text-shadow: 1 px .5px 4px rgba(0, 0, 0, 0.6)
+}
+
+.container {
+    width: 560px;
+    height: 450px;
+    background-color: #faebd7;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+.container .squares:nth-child(-n+5) {
+    background-image: url("icons/icon_1.png");
+    color: #fff;
+    float: left; /*This (float) is what makes the icons sit in a horizontal row, rather than stacked on top of each other */
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    transition-property: transform;
+    transition-delay: .5s;
+    transition-duration: ease-in-out;
+}
+
+.squares:nth-child(-n+5) p {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.squares:nth-child(1) {
+    background: #AC0002;
+}
+
+.squares:nth-child(2) {
+    background: #FF7F00;
+}
+
+.squares:nth-child(3) {
+    background: #008807;
+}
+
+.squares:nth-child(4) {
+    background: #002B93;
+}
+
+.squares:nth-child(5) {
+    background: #460197;
+}
+
+.container .squares:nth-child(-n+5):hover {
+    background-image: url("icons/icon_2.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(2.5,.2,.3,2);
+}
+
+.squares:nth-child(1):hover {
+    background: #C10003;
+}
+
+.squares:nth-child(2):hover {
+    background: #FFC000;
+}
+
+.squares:nth-child(3):hover {
+    background: #0BBF00;
+}
+
+.squares:nth-child(4):hover {
+    background: #0023E4;
+}
+
+.squares:nth-child(5):hover {
+    background: #8B00EF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
