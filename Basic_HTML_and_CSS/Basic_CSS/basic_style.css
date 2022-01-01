@@ -64,6 +64,7 @@ h1 {
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 }
@@ -88,8 +89,15 @@ h1 {
     background: #8B00EF;
 }
 
-
-
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url("icons/icon_2.png");
+    }
+    50% {
+        transform: translateY(330px);
+    }
+}
 
 
 
