@@ -64,7 +64,7 @@ h1 {
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
-    animation-delay: 2s;
+    animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(2.5,.2,.3,2);
 }
