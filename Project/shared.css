@@ -46,6 +46,10 @@ h1::after { /*This is the underline */
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
 }
 
+.heading-padding h1 {
+    color: #000;
+}
+
 h2 {
     line-height: 50px;
     color: white;
@@ -87,7 +91,6 @@ section {
     height: 105px;
     max-height: 340px;
     display: block;
-    float: left;
 }
 
 .container {
@@ -203,11 +206,15 @@ section {
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);  
 }
 
+.rsvp-text {
+    text-align: center;
+}
+
 .reservation h2 {
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    color: red;
+    color: black;
     font-weight: 500;
     font-size: 1.3em;
     letter-spacing: 0pt;
@@ -218,16 +225,17 @@ section {
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    color: red;
+    color: white;
     font-weight: 900;
     font-size: 1.5em;
     font-variant: small-caps;
     letter-spacing: .4pt;
     word-spacing: .3pt;
+    text-shadow: 2px 2px 4px black;
 }
 
 .reservation p {
-    color: red;
+    color: black;
     width: 50%;
     margin: 0 auto;
 }
@@ -239,7 +247,7 @@ section {
     color: blue;
     padding: 12px;
     width: 70%;
-    border: 1px solid green;
+    border: 1px solid black;
     margin: 2% auto;
     border-radius: 7px;
     background: rgb(227, 222, 222);
@@ -248,6 +256,24 @@ section {
 }
 
 .reservation input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: black;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid green;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
+    font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.reservation input[type="email"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
@@ -260,12 +286,38 @@ section {
     border-left: 1px solid green;
     margin: 10px 1em;
     border-radius: 7px;
-    background: #00CCFF;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
+    font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+.reservation input[type="tel"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: purple;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 1px solid green;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: whitesmoke;
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
 .reservation input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
+}
+
+.reservation input[type="tel"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
+}
+
+.reservation input[type="email"]:hover {
     box-shadow: 0 0 18px rgba(100, 65, 0, 0.8);
 }
 
@@ -275,7 +327,7 @@ section {
 
 .terms {
     margin: 30px 1px 0 0;
-    padding-left: 52px;
+    padding: auto;
     font-size: 14px;
     line-height: 5px;
     color: #000;
@@ -293,7 +345,7 @@ section {
 }
 
 .submit input[type="submit"] {
-    color: gold;
+    color: black;
     cursor: pointer;
     border: none;
     font-weight: 900;
@@ -306,13 +358,13 @@ section {
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
-    background-color: lightcoral;
+    background-color: whitesmoke;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
 
 .submit input[type="submit"]:hover {
-    color: black;
-    background-color: yellowgreen;
+    color: white;
+    background-color: black;
     box-shadow: inset 1px 2px 15px 0 rgba(0,0,0,0.5);
 }
 
@@ -321,23 +373,6 @@ section {
     color: black;
     text-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
     padding: 20px 50px;
-    text-align: right;
+    text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
