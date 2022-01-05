@@ -255,47 +255,11 @@ section {
     font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 }
 
-.reservation input[type="text"] {
+.reservation input[type="text"], .reservation input[type="tel"], .reservation input[type="email"]  {
     font-size: 15px;
     outline: none;
     font-weight: 600;
     color: black;
-    padding: 2% 1% 2% 7%;
-    width: 80%;
-    border-top: 1px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 1px solid green;
-    margin: 10px 1em;
-    border-radius: 7px;
-    background: whitesmoke;
-    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
-    font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
-
-.reservation input[type="email"] {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color: purple;
-    padding: 2% 1% 2% 7%;
-    width: 80%;
-    border-top: 1px solid black;
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-left: 1px solid green;
-    margin: 10px 1em;
-    border-radius: 7px;
-    background: whitesmoke;
-    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
-    font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-}
-
-.reservation input[type="tel"] {
-    font-size: 15px;
-    outline: none;
-    font-weight: 600;
-    color: purple;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid black;
