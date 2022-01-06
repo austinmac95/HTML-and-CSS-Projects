@@ -1,11 +1,119 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+    font-family: sans-serif;
+}
+
+section {
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
 iframe {
    display: block;
    margin: auto;
 }
 
+#home {
+    background: url(../Project/images/background.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding: auto;
+    padding-bottom: 500px;
+    color: white;
+}
+
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double white;
+    text-align: center;
+    transform: translateY(150px);
+    transform: translateX(70px);
+    width: 75%;
+    align-content: center;
+}
+
+.home-container {
+    text-align: left;
+}
+
 .ticket-button {
     margin: 10px;
+}
+
+.container {
+    padding: 15px 15px;
+    margin: auto;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* This ensures that the images cannot render outside of their container without forcing any scrollbars */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.menu-container {
+    max-height: 340px;
+    margin: 0% auto;
+    content: "";
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.menu {
+    color: #f00;
+    font: 12px/18px sans-serif;
+    text-align: center;
+    display: inline;
+    margin: 0% auto;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu li {
+    font-size: 14px/18px;
+    float: right;
+    color: white;
+    display: inline-block;
+    margin: 0% auto;
+    padding: 10px 2%;
+    position: relative;
+    cursor: pointer;
+    transition-property: background;
+    transition-duration: .4s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+}
+
+.menu li:hover {
+    color: #f00;
+    background-color: rgba(151, 151, 151, 0.205);
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
 }
