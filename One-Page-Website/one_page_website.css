@@ -62,7 +62,7 @@ section {
 
 #home {
     background: url(../Project/images/background.jpg) no-repeat 50% 50%;
-    background-attachment: fixed;
+    background-attachment: absolute;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +156,6 @@ iframe {
 .reservation {
     width: 60%;
     padding: 10px;
-    border-radius: 8px;
     margin: 0px auto;
     background-color: rgba(100,65,0,0.3);
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);  
@@ -205,7 +204,6 @@ iframe {
     width: 70%;
     border: 1px solid black;
     margin: 2% auto;
-    border-radius: 7px;
     background: rgb(227, 222, 222);
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.3);
     font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -223,7 +221,6 @@ iframe {
     border-bottom: 2px solid black;
     border-left: 1px solid green;
     margin: 10px 1em;
-    border-radius: 7px;
     background: whitesmoke;
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
     font-family: sans "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
@@ -257,6 +254,7 @@ iframe {
     position: relative;
     display: inline;
     float: right;
+    transform: translateY(15px);
 }
 
 .terms:hover {
@@ -277,7 +275,6 @@ iframe {
     width: 25%;
     font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
-    border-radius: 7px;
     background-color: whitesmoke;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,0.3);
 }
