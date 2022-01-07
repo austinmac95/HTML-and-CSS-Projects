@@ -32,7 +32,7 @@
     
     <div class="description">
         <h2>Welcome to the official website for BrewFest 2022!</h2>
-        <span class="ticket-sales">We're pleased to announce that this years festival will be held in Portland, Oregon!<br>
+        <span class="sub-description">We're pleased to announce that this years festival will be held in Portland, Oregon!<br>
         Tickets Will Be Available For Purchase in February</span>
     </div>
     
@@ -40,17 +40,24 @@
     <!--Picture Section-->
     <section id="gallery">
         <div class="gallery">
-            <img src="Thumb/thumbnail_1.jpg" width="300px">
-            <img src="Thumb/thumbnail_2.jpg" width="300px">
-            <img src="Thumb/thumbnail_3.jpg" width="300px">
-            <img src="Thumb/thumbnail_4.jpg" width="300px">
-            <img src="Thumb/thumbnail_5.jpg" width="300px">
-            <img src="Thumb/thumbnail_11.jpg" width="300px">
-            <img src="Thumb/thumbnail_7.jpg" width="300px">
-            <img src="Thumb/thumbnail_8.jpg" width="300px">
-            <img src="Thumb/thumbnail_9.jpg" width="300px">
-            <img src="Thumb/thumbnail_10.jpg" width="300px">
-            <img src="Thumb/thumbnail_6.jpg" width="300px">
+            <img src="Thumb/thumbnail_1.jpg" alt="">
+            <img src="Thumb/thumbnail_2.jpg" alt="">
+            <img src="Thumb/thumbnail_3.jpg" alt="">
+            <img src="Thumb/thumbnail_12.jpg" alt="">
+            <img src="Thumb/thumbnail_4.jpg" alt="">
+            <img src="Thumb/thumbnail_13.jpg" alt="">
+            <img src="Thumb/thumbnail_5.jpg" alt="">
+            <img src="Thumb/thumbnail_11.jpg" alt="">
+            <img src="Thumb/thumbnail_7.jpg" alt="">
+            <img src="Thumb/thumbnail_14.jpg" alt="">
+            <img src="Thumb/thumbnail_8.jpg" alt="">
+            <img src="Thumb/thumbnail_18.jpg" alt="">
+            <img src="Thumb/thumbnail_9.jpg" alt="">
+            <img src="Thumb/thumbnail_15.jpg" alt="">
+            <img src="Thumb/thumbnail_10.jpg" alt="">
+            <img src="Thumb/thumbnail_6.jpg" alt=""> 
+            <img src="Thumb/thumbnail_16.jpg" alt="">
+            <img src="Thumb/thumbnail_17.jpg" alt="">
         </div>
     </section>
     
@@ -58,13 +65,16 @@
     
     <!--Video Section-->
     
-    <section>
-        <div class="container">
-        <h2>What to Expect</h2>
-        <div class="video" id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/gfUVQX94A54" title="YouTube video player" frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="container">
+        <div class="description">
+            <h2>Interested?</h2>
+            <center><span class="sub-description">Watch this short video to see if 3 days of beer, food, and entertainment is right for you!</span></center>
         </div>
+        <div class="container">
+            <div class="video" id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/gfUVQX94A54" title="YouTube video player" frameborder="0" 
+                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
         </div>
     </section>
     <br>
@@ -72,25 +82,42 @@
     <!--End Video Section-->
     
     <!--Contact Form Section-->
-    <section id="contact">
-        <div class="container">
-            <h4>Fill out this form, and we will notify you when "Early-Access Tickets" are available.</h4>
-            <br>
-            <div id="form">
-                <form action="" method="post">
-                    <input id="fName" class="contact" type="text" value="" placeholder="First Name">
-                    <input id="lName" class="contact" type="text" value="" placeholder="Last Name">
-                    <input id="email" class="contact" type="email" value="" placeholder="Email">
-                </form>
-            </div>
-        </div>
-    </section>
+    <!--RSVP-->
+        <section id="rsvp">
+            <div class="container">
+                    <div class="description"><h2>RSVP</h2></div>
+                    <div class="reservation">
+                        <h2><span>Good Times are Just a Pint Glass Away!</span>
+                            <br>Reserve Your Seat Today!
+                        </h2>
+                        <p class="rsvp-text">
+                            Please provide us with your basic contact information
+                        </p>
+                        <div class="form-rsvp">
+                            <form action="" method="post">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                <input class="rsvp" type="email" value="" placeholder="Email">
+                                <input class="rsvp" type="tel" value="" placeholder="Phone">
+                                
+                                <div class="form-spacer">
+                                    <label class="terms">Terms and Conditions</label>
+                                </div>
+                                <div class="submit">
+                                    <input type="submit" value="Submit">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    <!--RSVP-->
     <!--End Contact Form Section-->
     <br><br>
     <!--Footer-->
     <section>
         <center>
-        <div class="footer">
+        <div class="footer" id="footer">
             www.BrewFest.com | BrewFest 2022 &copy; | Contact: info@brewfest.com
         </div>
         </center>
