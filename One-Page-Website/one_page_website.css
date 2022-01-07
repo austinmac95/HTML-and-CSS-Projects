@@ -3,76 +3,18 @@
 
 body {
     font-family: sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
 }
 
 section {
-    padding-top: 50px;
+    padding-top: 10px;
     margin-top: 50px;
-}
-
-iframe {
-   display: block;
-   margin: auto;
-}
-
-#home {
-    background: url(../Project/images/background.jpg) no-repeat 50% 50%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    display: block;
-    height: auto;
-    padding: auto;
-    padding-bottom: 500px;
-    color: white;
-}
-
-.head-main {
-    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
-    font-variant: small-caps;
-    color: white;
-    letter-spacing: 5pt;
-    word-spacing: 21pt;
-    font-size: 4.5em;
-    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-    line-height: 2;
-    font-weight: 900;
-    border: 5px double white;
-    text-align: center;
-    transform: translateY(150px);
-    transform: translateX(70px);
-    width: 75%;
-    align-content: center;
-}
-
-.home-container {
-    text-align: left;
-}
-
-.ticket-button {
-    margin: 10px;
-}
-
-.container {
-    padding: 15px 15px;
-    margin: auto;
-}
-
-.wrap {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    /* This ensures that the images cannot render outside of their container without forcing any scrollbars */
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    text-align: center;
 }
 
 .menu-container {
     max-height: 340px;
+    height: 5%;
     margin: 0% auto;
     content: "";
     width: 100%;
@@ -116,4 +58,90 @@ iframe {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+#home {
+    background: url(../Project/images/background.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding: auto;
+    padding-top: 300px;
+    padding-bottom: 500px;
+    color: white;
+}
+
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.9);
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    line-height: 2;
+    font-weight: 900;
+    border: 5px double white;
+    padding: 10px 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.description h2 {
+    font-size: 2.5em;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    line-height: 2;
+    font-weight: 600;
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.2);
+}
+
+.ticket-sales {
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+    line-height: 2;
+    font-weight: 600;
+    text-shadow: 2px 4px 5px rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 15px 15px;
+    margin: auto;
+}
+
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    /* This ensures that the images cannot render outside of their container without forcing any scrollbars */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    text-align: center;
+}
+
+.gallery {
+   line-height:0;
+   column-count:3;
+   column-gap: 5px;
+}
+
+.gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom: 5px; /* to match column gap */
+}
+
+iframe {
+   display: block;
+   margin: auto;
 }
